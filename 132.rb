@@ -43,3 +43,4 @@ puts "Done!"          # 9
 
 
 # why does the puts command while inside the loop not print to the screen, but it does outside of the loop? is there a better place for me to ask this question?
+# after watching the next lesson my understanding is the puts command will not execute because the while condition is not being met? leaving this here in case i am wrong
