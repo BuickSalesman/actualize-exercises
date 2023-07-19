@@ -12,5 +12,7 @@ puts hotdog + porkchop + snausage
 # Find the invalid variable names and delete the special characters 
 # (be sure to leave the special characters in the valid variable names alone).
 bob7 = 50
+@bob = 50
 bob_ = 50
 _bob = 50
+$bob = 50
