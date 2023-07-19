@@ -40,3 +40,6 @@ puts "Done!"          # 9
 # 7: index is 2
 # 8: (2 is not less than 2, end the loop)
 # 9: print "Done!" to the screen
+
+
+# why does the puts command while inside the loop not print to the screen, but it does outside of the loop? is there a better place for me to ask this question?
