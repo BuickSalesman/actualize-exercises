@@ -4,7 +4,7 @@
 # (Example: a silver 2006 Honda Accord, Honda is the make, Accord is the model)
 cars = [
     {"make" => "GMC", "model" => "Jimmy", "color" => "black", "year" => 1998},
-    {"make" => "Buick", "model" => "Streamliner", "color" => "brown", "year" => 1948},
+    {"make" => "Buick", "model" => "Streamliner", "color" => "brown", "year" => 1948},  #lookitup
     {"make" => "Infiniti", "model" => "Q50S", "color" => "red", "year" => 2014},    #dis my car :)
 ]
 
