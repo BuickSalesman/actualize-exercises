@@ -24,23 +24,13 @@ p word                # 10
 # QUESTION 2
 # Finish annotating the code below.
 # Then run the code to see if the output matches your annotation.
-index = 0             # 1 
-while index > 2       # 2 5 8
-  puts index          # 3 6
-  index = index + 1   # 4 7
+index = 0             # 1
+while index > 2       # 2
+  puts index          # 
+  index = index + 1   # 
 end 
-puts "Done!"          # 9
+puts "Done!"          # 3
 
 # 1: index is 0
-# 2: (0 is less than 2, continue)
-# 3: print 0 to the screen
-# 4: index is 1 
-# 5: (1 is less than 2, continue)
-# 6: print 1 to the screen
-# 7: index is 2
-# 8: (2 is not less than 2, end the loop)
-# 9: print "Done!" to the screen
-
-
-# why does the puts command while inside the loop not print to the screen, but it does outside of the loop? is there a better place for me to ask this question?
-# after watching the next lesson my understanding is the puts command will not execute because the while condition is not being met? leaving this here in case i am wrong
+# 2: 0 is not greater than 2, end the loop
+# 3: print "Done!" to the screen
