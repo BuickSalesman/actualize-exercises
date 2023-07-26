@@ -14,10 +14,11 @@ end
 # QUESTION 2
 # Fix the indentation and the errors with the code below.
 x = 1000
+
 if x < 1
-puts 0
+    puts 0
 elsif x < 10
-puts 1
-else x < 100
-puts 2
+    puts 1
+else
+    puts 2
 end
