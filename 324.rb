@@ -13,24 +13,37 @@
 #print roman numeral
 
 puts "Enter a whole number!"
-number = gets.chomp
+number = gets.chomp.to_i
 
-conversion_chart = {
-    1000 => 'M',
-    900  => 'CM',
-    500  => 'D',
-    400  => 'CD',
-    100  => 'C',
-    90   => 'XC',
-    50   => 'L',
-    40   => 'XL',
-    10   => 'X',
-    9    => 'IX',
-    5    => 'V',
-    4    => 'IV',
-    1    => 'I'
-  }
+def convert_fives(number)
+    if number == 5
+      puts 'V'
+    else
+      puts number
+    end
+end 
 
-def numeralize
+def convert_ones(number)
+    puts "I" * number
 end
+      
 
+
+convert_ones(number)
+convert_fives(number)
+
+# conversion_chart = {
+#     1000 => 'M',
+#     900  => 'CM',
+#     500  => 'D',
+#     400  => 'CD',
+#     100  => 'C',
+#     90   => 'XC',
+#     50   => 'L',
+#     40   => 'XL',
+#     10   => 'X',
+#     9    => 'IX',
+#     5    => 'V',
+#     4    => 'IV',
+#     1    => 'I'
+#   }

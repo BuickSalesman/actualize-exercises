@@ -11,33 +11,13 @@
 
 numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]
 
-#nested loop to remove the 4th, 8th, and 9th numbers in the sequence??
+numbers.each do |number|
+    puts number
+    if number = 4
+        puts "DUPLICATE"
+    else
+        puts ""
+    end
+end
 
-# index = 0 
-#     while index < numbers.length
-#         puts numbers.[index]
-#         index = index + 1
-#     end
-
-# --that didnt work
-
-# numbers.each do |number|
-#   puts number if
-#     number 
-
-# --no clue what im doing here
-
-# index = 0
-# while index < numbers.length
-#   if numbers[index] = 4
-#   index = index 
-#   else
-#   index = index + 1
-#   end
-# end
-
-# --this is just half baked
-
-# no idea how to even begin to break this down
-
-#[4, 6, 1, 2, 8, 3, 7]
+#i do not understand why this puts duplicate after every number
