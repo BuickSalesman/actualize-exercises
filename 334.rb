@@ -39,3 +39,5 @@ puts w2
 # w9 = gets.chomp.to_s
 # puts "put word"
 # w10 = gets.chomp.to_s
+
+#i guess i should put these into an array somehow but im not exactly sure how to format it
