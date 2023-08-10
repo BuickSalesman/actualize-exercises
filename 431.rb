@@ -17,3 +17,22 @@
 # If the weight is less than or equal to 1 kg, the shipping fee is $15.
 # If the weight is greater than 1 kg, the shipping fee is $25.
 
+weight = 0.7
+destination = "international"
+if destination == "domestic"
+    if weight <= 1
+        shipping = 5
+    else
+        shipping = 10
+    end
+elsif destination == "international"
+    if weight <= 1
+        shipping = 15
+    else
+        shipping = 25
+    end
+end
+
+puts shipping
+
+#first try lets go, moving on to converting data tomorrow
