@@ -13,3 +13,5 @@
 numbers = [2, 4, 5, 1, 8, 9, 7]
 odd_numbers = numbers.select { |number| number % 2 == 1}
 p odd_numbers
+
+#this took two tries from memory 

@@ -11,7 +11,7 @@ db.execute "CREATE TABLE IF NOT EXISTS images(path TEXT, thumbs_up INT)"        
 image_path = 'image1.png'                                                          # define variable image_path as a path to the file image1.png
 results = db.query "SELECT path, thumbs_up FROM images WHERE path=?", image_path   # define variable results as the result of db.query
 
-first_result = results.next                                                        # retrieve first result of the query
+first_result = results.next                                                        # retrieve first result of the querys
 if first_result                                                                    # check if result was found
   puts first_result['thumb_up']                                                    # puts the first result and string 'thumb_up'
 else
